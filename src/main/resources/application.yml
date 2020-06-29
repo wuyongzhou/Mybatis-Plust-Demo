@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mp-demo?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&failOverReadOnly=false&serverTimezone=UTC
+    username: root
+    password: qq@84214270
+
+logging:
+  file:
+    name: ./logs/mybatis-plus-demo.log
